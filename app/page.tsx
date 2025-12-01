@@ -41,8 +41,8 @@ export default function Home() {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-  monto_inicial: parametros.precioActual,
-  volatilidad_anual: parametros.volatilidad,
+         monto_inicial: parametros.precioActual,
+        volatilidad_anual: parametros.volatilidad,
   horizonte_temporal: parametros.dias,
   cantidad_iteraciones: parametros.simulaciones,}),
         })
